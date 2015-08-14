@@ -1,0 +1,109 @@
+.twin-wrap {
+  position: relative;
+}
+
+.twin-left-wrap {
+  position: absolute;
+  width: 180px;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.twin-right-wrap {
+  position: relative;
+  margin-left: 179px;
+  padding: 20px 0 0;
+  background: #FFFFFF;
+  border: 1px solid #DCDCDC;
+}
+
+.twin-right-wrap .tab-panel {
+  border-width: 1px 0 0 0;
+  padding: 16px 26px 19px;
+}
+
+.twin-right-wrap .horizontal-tabs {
+  padding: 0 26px;
+}
+
+.tab-panel {
+  border: 1px solid #DCDCDC;
+  padding: 10px 20px;
+  margin-top: -1px;
+  background: #fff;
+}
+
+.tab-panel .table-list tbody {
+  border-width: 1px 0 0;
+}
+
+.vertical-tabs {
+  margin: 0;
+  padding: 20px 0;
+  background: #FFFFFF;
+  border: 1px solid #DCDCDC;
+}
+
+.vertical-tabs a {
+  display: block;
+  color: #424242;
+  padding: 10px 15px;
+}
+
+.vertical-tabs .vertical-tabs-item-active {
+  background: #666666;
+}
+
+.vertical-tabs .vertical-tabs-item-active a {
+  color: #FFFFFF;
+}
+
+.horizontal-tabs {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.horizontal-tabs a {
+  display: block;
+  padding: 6px 19px;
+  color: #424242;
+  text-decoration: none;
+}
+
+.horizontal-tabs-item {
+  display: inline-block;
+  font-weight: 600;
+  transition: border 0.2s;
+  border-bottom: 3px solid transparent;
+}
+
+.horizontal-tabs-item .error-icon,
+.horizontal-tabs-item .svg-icon {
+  vertical-align: -1px;
+  margin: 0 4px 0 -4px;
+}
+
+.horizontal-tabs-item .error-icon svg,
+.horizontal-tabs-item .svg-icon svg {
+  width: 12px;
+  height: 12px;
+}
+
+.horizontal-tabs-item:hover {
+  border-bottom: 3px solid #ccc;
+}
+
+.horizontal-tabs-item-active {
+  border-bottom: 3px solid #1DA0C7;
+}
+
+.horizontal-tabs-item-active a {
+  color: #1DA0C7;
+}
+
+.horizontal-tabs-item-active:hover {
+  border-bottom: 3px solid #1DA0C7;
+}
